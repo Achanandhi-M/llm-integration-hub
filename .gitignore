@@ -1,0 +1,31 @@
+venv/
+.env
+# Terraform state files
+*.tfstate
+*.tfstate.*
+
+# Backup files
+*.backup
+
+# Override files
+override.tf
+override.tf.json
+
+# Auto-generated files
+.terraform/
+
+# Crash log files
+crash.log
+
+# Exclude tfvars files that may contain sensitive information
+*.tfvars
+*.tfvars.json
+
+# Ignore local provider plugins
+.terraform.lock.hcl
+
+# Ignore sensitive files like local .env
+.env
+
+# Ignore Terraform plan files
+*.plan
